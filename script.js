@@ -111,8 +111,8 @@ function downloadPUBG() {
 
 function downloadedPUBG() {
     const link = document.createElement('a');
-    link.href = 'PUBG.apk'; // Replace with actual APK link
-    link.download = 'PUBG.apk';
+    link.href = 'PUBGM GL🌍 3.6.0 Custom Menu 32BIT.apk'; // Replace with actual APK link
+    link.download = 'PUBGM GL🌍 3.6.0 Custom Menu 32BIT.apk';
     link.click();
     alert('Your download will begin shortly.');
 }
