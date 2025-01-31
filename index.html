@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pubg Mod Apk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Gaming Website</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/Glass Calculator/index.html">Calculator</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to My Gaming Website</h2>
+        <p>Explore my work, achievements, and passion for gaming development.</p>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate game developer with expertise in creating immersive gaming experiences. Check out my projects below!</p>
+    </section>
+    
+    <section id="search-section">
+    <div id="search-container">
+        <input type="text" id="search-box" placeholder="Search for games or projects..." />
+        <button id="search-button">Search</button>
+    </div>
+    <ul id="search-results">
+        <!-- Search results will be dynamically added here -->
+    </ul>
+</section>
+
+    <section id="projects" >
+        <h2>My Projects</h2>
+        <div id="project-container" class="project-grid">
+            <!-- Game 1 with Download Button -->
+            <div id="project-card" class="project-item">
+              <img src="bgmi.jpeg" alt="Battlegrounds Mobile India" class="project-icon">
+                <h3 class="project-name">Battlegrounds Mobile India</h3>
+                <p class="project-description">An immersive Battle Royal game.</p>
+                <button class="download-button" onclick="downloadBGMI()">Download BGMI 3.6 Original</button>
+                <p>👇👇Use Original Obb For This Mod.👇👇</p>
+                <button class="download-button" onclick="downloadedBGMI()">
+                  Download BGMI 3.6 Mod Apk
+                </button>
+                <p>👆👆Use Original Obb For This Mod.👆👆</p>
+            </div>
+
+            <!-- Game 2 -->
+            <div id="project-card", class="project-item">
+              <img src="pubg.jpeg" alt="Playerunknown Battlegrounds" class="project-icon">
+                <h3 class="project-name">PlayerUnknown's Battlegrounds</h3>
+                <p class="project-description">An immersive Battle Royal game.</p>
+                <button class="download-button" onclick="downloadPUBG()">Download PUBG 3.6 Original</button>
+                <p>👇👇Use Original Obb For This Mod.👇👇</p>
+                <button class="download-button" onclick="downloadedPUBG()">
+                  Download PUBG 3.6 Mod Apk
+                </button>
+                <p>👆👆Use Original Obb For This Mod.👆👆</p>
+            </div>
+
+            <!-- Game 3 -->
+           <!-- <div class="project-card">
+                <h3>Coming Soon</h3>
+                <p>Coming Soon</p>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <div class="form-container">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" id="send-message">Send Message</button>
+            </div>
+        </form>
+
+        <!-- Confirmation Modal -->
+        <div id="confirmation-modal" class="modal">
+            <div class="modal-content">
+                <h3>Thank You!</h3>
+                <p>Your message has been sent successfully. I'll get back to you soon!</p>
+                <button id="close-modal">Close</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="currency-converter">
+    <h2>Currency Converter</h2>
+    <div class="converter-container">
+        <input type="number" id="amount" placeholder="Enter amount">
+        <select id="from-currency">
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound</option>
+            <option value="INR">INR - Indian Rupee</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+        </select>
+        <select id="to-currency">
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound</option>
+            <option value="INR">INR - Indian Rupee</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+        </select>
+        <button id="convert-button">Convert</button>
+        <button id="reload-button" title="Reload Rates">
+                <img src="reload-icon.png" alt="Reload" class="reload-icon">
+            </button>
+        <p id="conversion-result"></p>
+    </div>
+</section>
+
+    <footer>
+        <p>© 2025 Gaming Website Is Created By Hassan Raza. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
