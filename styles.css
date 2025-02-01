@@ -120,7 +120,7 @@ nav ul li a:hover {
     background: linear-gradient(45deg, #00ffcc, #0066ff);
 }
 
-#dark-mode-toggle {
+/*#dark-mode-toggle {
     padding: 10px 20px;
     background-color: #00ffcc;
     color: #000;
@@ -132,6 +132,98 @@ nav ul li a:hover {
 
 #dark-mode-toggle:hover {
     background-color: #0066ff;
+}*/
+
+/* Dark Mode Toggle Button */
+/*.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+    background-color: #555;
+}*/
+
+/* Dark Theme */
+/*body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+body.dark-mode a {
+    color: #fff;
+}
+
+body.dark-mode .social-link {
+    background-color: #444;
+}*/
+
+/* Additional Dark Mode Styles for Smooth Transition */
+/*body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}*/
+
+/* Dark Mode Default Styles */
+/*body {
+    background-color: #222;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}*/
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: flex;
+    gap: 5px;
+    box-sizing: 40px;
+    top: 200px;
+    right: 10px;
+    background-color: #333;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    cursor: pointer;
+    transition: 0.3s;
+    background: linear-gradient(45deg,#0066ff,#00ffcc);
+}
+
+/* Dark Mode Icon */
+#dark-mode-icon {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Light Mode */
+body.light-mode {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.light-mode .social-icons {
+    background-color: #fff; /* Change social icon background */
+}
+
+/* On Hover Effect for Dark Mode Toggle */
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* Hide checkbox input */
+#dark-mode-switch {
+    display: none;
 }
 
 /* Search Section */
