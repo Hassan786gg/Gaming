@@ -94,7 +94,7 @@ function downloadBGMI() {
 
 function downloadedBGMI() {
     const link = document.createElement('a');
-    link.href = 'BGMI.apk'; // Replace with actual APK link
+    link.href = 'https://drive.google.com/file/d/12Y9oOjeXHkpeLec-11orLm653R2-2j2p/view?usp=drivesdk'; // Replace with actual APK link
     link.download = 'BGMI.apk';
     link.click();
     alert('Your download will begin shortly.');
