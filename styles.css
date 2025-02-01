@@ -457,10 +457,32 @@ section, .converter-container {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Animated "Follow Me" Text */
 #social-media h2 {
     color: #fff;
-    margin-bottom: 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    animation: glowing-text 2s infinite alternate ease-in-out;
 }
+
+/* Glowing Animation */
+@keyframes glowing-text {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 
+                     0 0 30px rgba(0, 255, 255, 0.8);
+    }
+}
+
+/*#social-media h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}*/ 
 
 /* Social Icons */
 .social-icons {
