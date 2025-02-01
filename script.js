@@ -89,7 +89,7 @@ function downloadBGMI() {
     link.href = 'https://apkdownload.battlegroundsmobileindia.com/bgmi_3_6_0_19518.apk'; // Replace with actual APK link
     link.download = 'bgmi_3_6_0_19518.apk';
     link.click();
-    alert('Your download will begin shortly.');
+   // alert('Your download will begin shortly.');
 }
 
 function downloadedBGMI() {
@@ -97,7 +97,7 @@ function downloadedBGMI() {
     link.href = 'https://drive.google.com/file/d/12Y9oOjeXHkpeLec-11orLm653R2-2j2p/view?usp=drivesdk'; // Replace with actual APK link
     link.download = 'BGMI.apk';
     link.click();
-    alert('Your download will begin shortly.');
+   // alert('Your download will begin shortly.');
 }
 
 // PUBG Download Functionality
@@ -106,7 +106,7 @@ function downloadPUBG() {
     link.href = 'https://f.gbcass.com/PUBGMOBILE_Global_3.6.0_uawebsite_livik01_D5903474E.apk'; // Replace with actual APK link
     link.download = 'PUBGMOBILE_Global_3.6.0_uawebsite_livik01_D5903474E.apk';
     link.click();
-    alert('Your download will begin shortly.');
+   // alert('Your download will begin shortly.');
 }
 
 function downloadedPUBG() {
@@ -114,7 +114,7 @@ function downloadedPUBG() {
     link.href = 'https://drive.google.com/file/d/17NGbvTmqNkDE3ho8GAXdJh3Kqe7nff0-/view?usp=drivesdk'; // Replace with actual APK link
     link.download = 'PUBGM GL🌍 3.6.0 Custom Menu 32BIT.apk';
     link.click();
-    alert('Your download will begin shortly.');
+   // alert('Your download will begin shortly.');
 }
 
 // Contact Form Validation and Modal
