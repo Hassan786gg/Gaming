@@ -111,7 +111,7 @@ function downloadPUBG() {
 
 function downloadedPUBG() {
     const link = document.createElement('a');
-    link.href = 'https://www.mediafire.com/file/qimhojc5h3n91vp/PUBGM_GL%25F0%259F%258C%258D_3.6.0_Custom_Menu_32BIT.apk.7z/file?dkey=wewzzqesnvl&r=1008'; // Replace with actual APK link
+    link.href = 'https://drive.google.com/file/d/17NGbvTmqNkDE3ho8GAXdJh3Kqe7nff0-/view?usp=drivesdk'; // Replace with actual APK link
     link.download = 'PUBGM GL🌍 3.6.0 Custom Menu 32BIT.apk';
     link.click();
     alert('Your download will begin shortly.');
