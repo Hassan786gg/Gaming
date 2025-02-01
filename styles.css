@@ -445,6 +445,57 @@ section, .converter-container {
     color: #00ffcc;
 }
 
+/* Social Media Section */
+#social-media {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #222; /* Dark theme */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#social-media h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link {
+  text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+/* Individual Icon Colors */
+.facebook { background-color: #1877F2; } /* Facebook Blue */
+.twitter { background-color: #1DA1F2; } /* Twitter Blue */
+.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.linkedin { background-color: #0077B5; } /* LinkedIn Blue */
+.youtube { background-color: #FF0000; } /* YouTube Red */
+.telegram { background-color: #0088cc; } /* Telegram Blue */
+
+/* Hover Effect */
+.social-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
 footer {
     text-align: center;
     padding: 20px;
