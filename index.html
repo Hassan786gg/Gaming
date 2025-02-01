@@ -31,7 +31,14 @@
     <section id="hero">
         <h2>Welcome to My Gaming Website</h2>
         <p>Explore my work, achievements, and passion for gaming development.</p>
-        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+       <!--<button id="dark-mode-toggle">Toggle Dark Mode</button>-->
+       <!-- Dark Mode Toggle Button -->
+<div id="dark-mode-toggle" class="dark-mode-toggle">
+    <i class="fas fa-moon"></i> <!-- Icon for dark mode -->
+</div>
+
+<!-- Include Font Awesome for Icons -->
+<script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
     </section>
 
     <section id="about">
@@ -55,7 +62,7 @@
             <!-- Game 1 with Download Button -->
             <div id="project-card" class="project-item">
               <img src="bgmi.jpeg" alt="Battlegrounds Mobile India" class="project-icon">
-                <h3 class="project-name"><i class="fas fa-mobile-alt"></i> Battlegrounds Mobile India</h3>
+                <h3 class="project-name"><i class="fas fa-mobile-alt"></i> Battlegrounds Mobile India <i class="fas fa-mobile-alt"></i></h3>
                 <p class="project-description">An immersive Battle Royal game.</p>
                 <button id="download-button" class="fas fa-download" onclick="downloadBGMI()">Download BGMI 3.6 Original</button>
                 <p>👇👇Use Original 32Bit Obb For This Mod.👇👇</p>
@@ -68,7 +75,7 @@
             <!-- Game 2 -->
             <div id="project-card", class="project-item">
               <img src="pubg.jpeg" alt="Playerunknown Battlegrounds" class="project-icon">
-                <h3 class="project-name"><i class="fas fa-mobile-alt"></i> PlayerUnknown's Battlegrounds</h3>
+                <h3 class="project-name"><i class="fas fa-mobile-alt"></i> PlayerUnknown's Battlegrounds <i class="fas fa-mobile-alt"></i></h3>
                 <p class="project-description">An immersive Battle Royal game.</p>
                 <button id="download-button" class="fas fa-download" onclick="downloadPUBG()">Download PUBG 3.6 Original</button>
                 <p>👇👇Use Original 32Bit Obb For This Mod.👇👇</p>
@@ -107,7 +114,7 @@
         </div>
     </section>
     
-  <!-- <section id="currency-converter">
+  <section id="currency-converter">
     <h2>Currency Converter</h2>
     <div class="converter-container">
         <input type="number" id="amount" placeholder="Enter amount">
@@ -126,12 +133,12 @@
             <option value="JPY">JPY - Japanese Yen</option>
         </select>
         <button id="convert-button" class="fas fa-exchange-alt">Convert</button>
-        <button id="reload-button" class="fas fa-sync-alt" title="Reload Rates"> -->
+        <button id="reload-button" class="fas fa-sync-alt" title="Reload Rates">
                <!--<img src="reload-icon.png" alt="Reload" class="reload-icon"> -->
-          <!-- </button>
+         </button>
         <p id="conversion-result"></p>
     </div>
-</section> -->
+</section>
 
 <section id="social-media">
     <h2>Follow Me</h2>
