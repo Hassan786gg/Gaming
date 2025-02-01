@@ -16,6 +16,10 @@ menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
+document.getElementById("contact").addEventListener("click", function () {
+    window.location.href = "razamirh4@gmail.com";
+});
+
 // Dark Mode Toggle
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 darkModeToggle.addEventListener('click', () => {
@@ -82,6 +86,23 @@ searchBox.addEventListener('keyup', event => {
         performSearch(event.target.value);
     }
 });
+
+/*document.getElementById("search-btn").addEventListener("click", function () {
+    let query = document.getElementById("search-input").value.toLowerCase();
+    
+    // Example: Searching through project titles
+    let projects = document.querySelectorAll(".project-item");
+    
+    projects.forEach(project => {
+        let title = project.querySelector("h3").innerText.toLowerCase();
+        
+        if (title.includes(query)) {
+            project.style.display = "block";
+        } else {
+            project.style.display = "none";
+        }
+    });
+});*/
 
 // BGMI Download Functionality
 function downloadBGMI() {
@@ -273,10 +294,15 @@ async function populateCurrencyOptions() {
 }
 
 // Reload button functionality
-reloadButton.addEventListener('click', () => {
+document.getElementById("reload-button").addEventListener("click", function () {
+    location.reload();
     conversionResult.textContent = 'Reloading exchange rates...';
     populateCurrencyOptions();
 });
+/*reloadButton.addEventListener('click', () => {
+    conversionResult.textContent = 'Reloading exchange rates...';
+    populateCurrencyOptions();
+});*/
 
 // Fetch rates and populate currencies on page load
 populateCurrencyOptions();

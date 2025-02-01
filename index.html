@@ -15,10 +15,10 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="#about"><i class="fas fa-user" id="about1"></i>About</a></li>
+                <li><a href="#projects"><i class="fas fa-gamepad" id="projects1"></i>Projects</a></li>
+                <li><button><i class="fas fa-envelope" id="contact"></i>Contact</button></li>
+                <li><a href="calculator.html"><i class="fas fa-calculator" id="calculator"></i>Calculator</a></li>
             </ul>
             <div class="menu-toggle" id="menu-toggle">
                 <div class="bar"></div>
@@ -42,7 +42,7 @@
     <section id="search-section">
     <div id="search-container">
         <input type="text" id="search-box" placeholder="Search for games or projects..." />
-        <button id="search-button">Search</button>
+        <button id="search-button"><i class="fas fa-search"></i></button>
     </div>
     <ul id="search-results">
         <!-- Search results will be dynamically added here -->
@@ -55,7 +55,7 @@
             <!-- Game 1 with Download Button -->
             <div id="project-card" class="project-item">
               <img src="bgmi.jpeg" alt="Battlegrounds Mobile India" class="project-icon">
-                <h3 class="project-name">Battlegrounds Mobile India</h3>
+                <h3 class="project-name"><i class="fas fa-mobile-alt"></i> Battlegrounds Mobile India</h3>
                 <p class="project-description">An immersive Battle Royal game.</p>
                 <button id="download-button" class="fas fa-download" onclick="downloadBGMI()">Download BGMI 3.6 Original</button>
                 <p>👇👇Use Original 32Bit Obb For This Mod.👇👇</p>
@@ -68,7 +68,7 @@
             <!-- Game 2 -->
             <div id="project-card", class="project-item">
               <img src="pubg.jpeg" alt="Playerunknown Battlegrounds" class="project-icon">
-                <h3 class="project-name">PlayerUnknown's Battlegrounds</h3>
+                <h3 class="project-name"><i class="fas fa-mobile-alt"></i> PlayerUnknown's Battlegrounds</h3>
                 <p class="project-description">An immersive Battle Royal game.</p>
                 <button id="download-button" class="fas fa-download" onclick="downloadPUBG()">Download PUBG 3.6 Original</button>
                 <p>👇👇Use Original 32Bit Obb For This Mod.👇👇</p>
@@ -93,7 +93,7 @@
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Your Email" required>
             <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit" id="send-message">Send Message</button>
+            <button type="submit" id="send-message" class="fas fa-paper-plane">Send Message</button>
             </div>
         </form>
 
@@ -125,9 +125,9 @@
             <option value="INR">INR - Indian Rupee</option>
             <option value="JPY">JPY - Japanese Yen</option>
         </select>
-        <button id="convert-button">Convert</button>
-        <button id="reload-button" title="Reload Rates">
-                <img src="reload-icon.png" alt="Reload" class="reload-icon">
+        <button id="convert-button" class="fas fa-exchange-alt">Convert</button>
+        <button id="reload-button" class="fas fa-sync-alt" title="Reload Rates">
+               <!--<img src="reload-icon.png" alt="Reload" class="reload-icon"> -->
             </button>
         <p id="conversion-result"></p>
     </div>

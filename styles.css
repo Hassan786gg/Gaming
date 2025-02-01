@@ -53,6 +53,22 @@ nav ul li a:hover {
     color: #00ffcc;
 }
 
+#about1 {
+  margin: 5px;
+}
+
+#projects1 {
+  margin: 5px;
+}
+
+#contact {
+  margin: 5px;
+}
+
+#calculator {
+  margin: 5px;
+}
+
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -354,7 +370,7 @@ form button:hover {
     background-color: #0066ff;
 }
 
-#send-message {
+/*#send-message {
     cursor: pointer;
     color: #000;
     background-color: #00ffcc;
@@ -363,6 +379,42 @@ form button:hover {
 
 #send-message:hover {
     background-color: #0066ff;
+}*/
+
+#send-message {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.5px;
+    gap: 5px;
+    background: #00ffcc;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  /*  font-family: 'Orbitron', sans-serif;*/ /* Gaming font */
+    font-size: 14px;
+  /*  border: 2px solid #fff;*/
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Font Awesome Send Icon */
+#send-message i {
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Send Button Hover Effect */
+#send-message:hover {
+    background: #0066ff;
+    transform: scale(1.05);
+}
+
+/* Icon Movement Effect on Hover */
+#send-message:hover i {
+    transform: translateX(5px);
 }
 
 .form-container input,
@@ -430,7 +482,7 @@ section, .converter-container {
     box-shadow: 0 0 10px #0066ff;
 }
 
-#convert-button {
+/*#convert-button {
     cursor: pointer;
     color: #000;
     background-color: #00ffcc;
@@ -439,6 +491,34 @@ section, .converter-container {
 
 #convert-button:hover {
     background-color: #0066ff;
+}*/
+
+#convert-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 1.05px;
+    background: #00ffcc;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+   /* font-family: 'Orbitron', sans-serif;*/ /* Futuristic gaming font */
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+  /*  border: 2px solid #fff;*/
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#convert-button button {
+    font-size: 18px;
+}
+
+#convert-button:hover {
+    background: #0066ff;
+    transform: scale(1.05);
 }
 
 /* Reload Button */
@@ -448,7 +528,7 @@ section, .converter-container {
     gap: 10px;
 }
 
-#reload-button {
+/*#reload-button {
     padding: 10px;
     border: none;
     background-color: transparent;
@@ -463,8 +543,53 @@ section, .converter-container {
 .reload-icon {
     width: 25px;
     height: 25px;
-    filter: invert(100%); /* Makes the icon white */
+    filter: invert(100%);*/ /* Makes the icon white */
+/*}*/
+
+#reload-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  /*  font-family: 'Orbitron', sans-serif;*/
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
+
+/* Font Awesome Reload Icon */
+#reload-button i {
+    font-size: 28px;
+    animation: rotate 5s linear infinite;
+}
+
+/* Reload Button Hover Effect */
+#reload-button:hover {
+   /* background: #d84315;*/
+    transform: rotate(360deg);
+}
+
+.fas fa-sync-alt {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+/* Rotating Animation for Reload Icon */
+/*@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}*/
 
 #conversion-result {
     margin-top: 20px;
