@@ -21,9 +21,37 @@ document.getElementById("contact").addEventListener("click", function () {
 });
 
 // Dark Mode Toggle
-const darkModeToggle = document.getElementById('dark-mode-toggle');
+/*const darkModeToggle = document.getElementById('dark-mode-toggle');
 darkModeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
+});*/
+
+// Get dark mode toggle button and body element
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const body = document.body;
+const darkModeIcon = darkModeToggle.querySelector('i');
+
+// Check if dark mode is saved in localStorage
+if (localStorage.getItem('dark-mode') === 'enabled') {
+    body.classList.add('dark-mode');
+    darkModeIcon.classList.remove('fa-moon');
+    darkModeIcon.classList.add('fa-sun');
+}
+
+// Toggle dark mode and change the icon
+darkModeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+
+    // Change the icon based on dark mode status
+    if (body.classList.contains('dark-mode')) {
+        darkModeIcon.classList.remove('fa-moon');
+        darkModeIcon.classList.add('fa-sun');
+        localStorage.setItem('dark-mode', 'enabled');
+    } else {
+        darkModeIcon.classList.remove('fa-sun');
+        darkModeIcon.classList.add('fa-moon');
+        localStorage.setItem('dark-mode', 'disabled');
+    }
 });
 
 // Sample data for search
